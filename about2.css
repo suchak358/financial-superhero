@@ -1,0 +1,38 @@
+@import url("https://fonts.gggleapis.com/css?family=Poppins&display=swap");
+body {
+    font-family: Arial, sans-serif;
+}
+
+#about-us {
+    text-align: center;
+    padding: 50px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-member {
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 250px;
+    border-radius: 12%;
+    margin-bottom: 20px;
+}
+
+.hire {
+    font-size: 18px;
+    background: #4070f4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
